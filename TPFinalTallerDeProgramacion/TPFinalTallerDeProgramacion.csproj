@@ -35,5 +35,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\Interfaces\IRepositorioCliente.cs" />
+    <Compile Include="DAL\Interfaces\IRepositorioGeneral.cs" />
+    <Compile Include="DAL\Repositorios\RepositorioCliente.cs" />
+    <Compile Include="Modelo\Cliente.cs" />
+    <Compile Include="Modelo\Cuenta.cs" />
+    <Compile Include="Modelo\Movimiento.cs" />
+    <Compile Include="Modelo\Tarjeta.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controlador\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Vista\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
