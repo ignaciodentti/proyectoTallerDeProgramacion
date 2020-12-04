@@ -1,0 +1,5 @@
+C:\Users\alcid\Documents\GitHub\Taller\proyectoTallerDeProgramacion\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.csprojAssemblyReference.cache
+C:\Users\alcid\Documents\GitHub\Taller\proyectoTallerDeProgramacion\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Properties.Resources.resources
+C:\Users\alcid\Documents\GitHub\Taller\proyectoTallerDeProgramacion\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Views.ViewLoginClient.resources
+C:\Users\alcid\Documents\GitHub\Taller\proyectoTallerDeProgramacion\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.csproj.GenerateResource.cache
+C:\Users\alcid\Documents\GitHub\Taller\proyectoTallerDeProgramacion\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.csproj.CoreCompileInputs.cache
