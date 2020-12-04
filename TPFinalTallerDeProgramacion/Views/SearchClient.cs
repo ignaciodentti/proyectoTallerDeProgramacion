@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TPFinalTallerDeProgramacion.Controllers;
+using TPFinalTallerDeProgramacion.DAL.Repositories;
 
 namespace TPFinalTallerDeProgramacion.Vista
 {
     public partial class SearchClient : Form
     {
+        SearchController iSearchController;
         public SearchClient()
         {
             InitializeComponent();
+            iSearchController = new SearchController(UnitOfWork.Instance);
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -30,6 +35,11 @@ namespace TPFinalTallerDeProgramacion.Vista
         private void search(object sender, MouseEventArgs e)
         {
             //Evento para buscar cliente
+        }
+
+        private void searchJuanAmador(object sender, MouseEventArgs e)
+        {
+            iSearchController.searchJuanAmador();
         }
     }
 }

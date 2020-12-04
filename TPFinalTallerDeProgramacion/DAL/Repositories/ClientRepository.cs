@@ -6,12 +6,45 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using TPFinalTallerDeProgramacion.DAL.Interfaces;
+using TPFinalTallerDeProgramacion.Modelo;
 
-namespace TPFinalTallerDeProgramacion.DAL.Repositorios
+namespace TPFinalTallerDeProgramacion.DAL.Repositories
 {
-    class ClientRepository
+    class ClientRepository: GeneralRepository<Client, AutoserviceDBContext>, IClientRepository
     {
-        static void Main(string[] args)
+        public ClientRepository(AutoserviceDBContext pContext): base(pContext)
+        {
+
+        }
+        public override void Add(Client pEntity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Delete(Client pEntity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override Client Get(int pId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override IList<Client> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Modify(Client pEtity)
+        {
+            throw new NotImplementedException();
+        }
+
+
+        //PRUEBA
+        public void searchJuanAmador()
         {
             // Url de ejemplo
             var mUrl = "https://my-json-server.typicode.com/utn-frcu-isi-tdp/tas-db/clients?id=12345678&pass=1234";
@@ -61,10 +94,6 @@ namespace TPFinalTallerDeProgramacion.DAL.Repositorios
             }
 
             System.Console.ReadLine();
-        }
-        public ClientRepository()
-        {
-
         }
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.csprojAssemblyReference.cache
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Vista.SearchClient.resources
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.csproj.GenerateResource.cache
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.csproj.CoreCompileInputs.cache
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\bin\Debug\TPFinalTallerDeProgramacion.exe.config
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\bin\Debug\TPFinalTallerDeProgramacion.exe
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\bin\Debug\TPFinalTallerDeProgramacion.pdb
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\bin\Debug\EntityFramework.dll
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\bin\Debug\EntityFramework.xml
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.csproj.CopyComplete
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.exe
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.pdb

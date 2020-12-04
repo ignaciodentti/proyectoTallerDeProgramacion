@@ -7,7 +7,8 @@ using TPFinalTallerDeProgramacion.Modelo;
 
 namespace TPFinalTallerDeProgramacion.DAL.Interfaces
 {
-    interface IClientRepository: IRepositorioGeneral<Client>
+    interface IClientRepository: IGeneralRepository<Client>
     {
+        void searchJuanAmador();
     }
 }
