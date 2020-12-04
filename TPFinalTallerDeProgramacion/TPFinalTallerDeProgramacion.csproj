@@ -34,20 +34,40 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAL\Interfaces\IRepositorioCliente.cs" />
-    <Compile Include="DAL\Interfaces\IRepositorioGeneral.cs" />
-    <Compile Include="DAL\Repositorios\RepositorioCliente.cs" />
-    <Compile Include="Modelo\Cliente.cs" />
-    <Compile Include="Modelo\Cuenta.cs" />
-    <Compile Include="Modelo\Movimiento.cs" />
-    <Compile Include="Modelo\Tarjeta.cs" />
+    <Compile Include="Controllers\ClientController.cs" />
+    <Compile Include="DAL\Interfaces\IClientRepository.cs" />
+    <Compile Include="DAL\Interfaces\IGeneralRepository.cs" />
+    <Compile Include="DAL\Repositories\ClientRepository.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Models\Card.cs" />
+    <Compile Include="Views\SearchClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SearchClient.Designer.cs">
+      <DependentUpon>SearchClient.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controlador\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Vista\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\SearchClient.resx">
+      <DependentUpon>SearchClient.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,7 +7,7 @@ using TPFinalTallerDeProgramacion.Modelo;
 
 namespace TPFinalTallerDeProgramacion.DAL.Interfaces
 {
-    interface IRepositorioCliente: IRepositorioGeneral<Cliente>
+    interface IClientRepository: IRepositorioGeneral<Client>
     {
     }
 }
