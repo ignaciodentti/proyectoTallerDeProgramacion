@@ -38,6 +38,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Resources\coolvetica rg.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\SearchController.cs" />
@@ -53,6 +54,11 @@
     <Compile Include="Models\Transaction.cs" />
     <Compile Include="Models\Card.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Views\GetBalance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     </Compile>
     <Compile Include="Views\LastTransactions.Designer.cs">
       <DependentUpon>LastTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\SearchClient.cs">
       <SubType>Form</SubType>
@@ -100,11 +112,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\GetBalance.resx">
       <DependentUpon>GetBalance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LastTransactions.resx">
       <DependentUpon>LastTransactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\SearchClient.resx">
       <DependentUpon>SearchClient.cs</DependentUpon>

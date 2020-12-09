@@ -40,7 +40,7 @@ namespace TPFinalTallerDeProgramacion.Vista
 
         private void searchJuanAmador(object sender, MouseEventArgs e)
         {
-            iSearchController.searchJuanAmador();
+            iSearchController.getClientData(Convert.ToInt32(textBoxDNI.Text), Convert.ToInt32(textBoxPIN.Text));
         }
 
         private void openSearchProducts(object sender, MouseEventArgs e)
@@ -59,6 +59,11 @@ namespace TPFinalTallerDeProgramacion.Vista
         {
             LastTransactions mGetLastTransactionsView = new LastTransactions();
             mGetLastTransactionsView.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
