@@ -9,6 +9,5 @@ namespace TPFinalTallerDeProgramacion.DAL.Interfaces
 {
     interface IClientRepository: IGeneralRepository<Client>
     {
-        void searchJuanAmador();
     }
 }

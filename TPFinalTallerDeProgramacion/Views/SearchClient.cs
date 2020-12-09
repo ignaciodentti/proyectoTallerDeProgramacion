@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TPFinalTallerDeProgramacion.Controllers;
 using TPFinalTallerDeProgramacion.DAL.Repositories;
+using TPFinalTallerDeProgramacion.Views;
 
 namespace TPFinalTallerDeProgramacion.Vista
 {
@@ -40,6 +41,12 @@ namespace TPFinalTallerDeProgramacion.Vista
         private void searchJuanAmador(object sender, MouseEventArgs e)
         {
             iSearchController.searchJuanAmador();
+        }
+
+        private void openSearchProducts(object sender, MouseEventArgs e)
+        {
+            SearchProductOfClient mSearchProductsOfClientView = new SearchProductOfClient();
+            mSearchProductsOfClientView.Show();
         }
     }
 }
