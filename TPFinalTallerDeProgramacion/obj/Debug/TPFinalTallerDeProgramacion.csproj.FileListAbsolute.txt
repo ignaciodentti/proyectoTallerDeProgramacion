@@ -15,3 +15,4 @@ C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\D
 C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.exe
 C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.pdb
 C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Views.SearchProductOfClient.resources
+C:\Users\gasto\Documents\UTN\5to   AÑO\Taller\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Views.GetBalance.resources

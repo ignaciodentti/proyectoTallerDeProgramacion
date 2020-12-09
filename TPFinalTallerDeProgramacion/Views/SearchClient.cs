@@ -48,5 +48,11 @@ namespace TPFinalTallerDeProgramacion.Vista
             SearchProductOfClient mSearchProductsOfClientView = new SearchProductOfClient();
             mSearchProductsOfClientView.Show();
         }
+
+        private void openGetBalanceView(object sender, EventArgs e)
+        {
+            GetBalance mGetBalanceViwe = new GetBalance();
+            mGetBalanceViwe.Show();
+        }
     }
 }

@@ -53,6 +53,12 @@
     <Compile Include="Models\Transaction.cs" />
     <Compile Include="Models\Card.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Views\GetBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\GetBalance.Designer.cs">
+      <DependentUpon>GetBalance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\SearchClient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Views\GetBalance.resx">
+      <DependentUpon>GetBalance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\SearchClient.resx">
       <DependentUpon>SearchClient.cs</DependentUpon>
     </EmbeddedResource>
