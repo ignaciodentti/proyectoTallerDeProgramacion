@@ -59,6 +59,12 @@
     <Compile Include="Views\GetBalance.Designer.cs">
       <DependentUpon>GetBalance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\LastTransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\LastTransactions.Designer.cs">
+      <DependentUpon>LastTransactions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\SearchClient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Views\GetBalance.resx">
       <DependentUpon>GetBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LastTransactions.resx">
+      <DependentUpon>LastTransactions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\SearchClient.resx">
       <DependentUpon>SearchClient.cs</DependentUpon>

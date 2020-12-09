@@ -54,5 +54,11 @@ namespace TPFinalTallerDeProgramacion.Vista
             GetBalance mGetBalanceViwe = new GetBalance();
             mGetBalanceViwe.Show();
         }
+
+        private void openLastTransactions(object sender, EventArgs e)
+        {
+            LastTransactions mGetLastTransactionsView = new LastTransactions();
+            mGetLastTransactionsView.Show();
+        }
     }
 }
