@@ -16,7 +16,7 @@ namespace TPFinalTallerDeProgramacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SearchClient());
+            Application.Run(new LoginDNI());
         }
     }
 }

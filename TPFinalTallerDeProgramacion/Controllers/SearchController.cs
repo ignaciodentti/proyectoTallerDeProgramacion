@@ -21,20 +21,25 @@ namespace TPFinalTallerDeProgramacion.Controllers
             iUDT = pUnitOfWork;
         }
 
-        public void searchJuanAmador()
+        public void getClientData(int pDNI, int pPassword)
         {
-            var mUrl = "https://my-json-server.typicode.com/utn-frcu-isi-tdp/tas-db/clients?id=12345678&pass=1234";
 
-            HttpWebRequest mRequest = (HttpWebRequest)WebRequest.Create(mUrl);
+            string urlS1 = $"https://my-json-server.typicode.com/utn-frcu-isi-tdp/tas-db/clients?id={pDNI}&pass={pPassword}";
+
+            // Se crea el request http
+            HttpWebRequest mRequest = (HttpWebRequest)WebRequest.Create(urlS1);
 
             try
             {
+                // Se ejecuta la consulta
                 WebResponse mResponse = mRequest.GetResponse();
 
+                // Se obtiene los datos de respuesta
                 using (Stream responseStream = mResponse.GetResponseStream())
                 {
                     StreamReader reader = new StreamReader(responseStream, Encoding.UTF8);
 
+                    // Se parsea la respuesta y se serializa a JSON a un objeto dynamic
                     dynamic mResponseJSON = JsonConvert.DeserializeObject(reader.ReadToEnd());
 
                     if (mResponseJSON.Count >= 1)
@@ -65,7 +70,7 @@ namespace TPFinalTallerDeProgramacion.Controllers
                 System.Console.WriteLine("Error: {0}", ex.Message);
             }
 
-            System.Console.ReadLine();
+            //System.Console.ReadLine();
         }
 
         public void searchProducts(int pDNI) 
