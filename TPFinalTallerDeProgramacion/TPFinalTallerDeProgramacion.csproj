@@ -71,11 +71,17 @@
     <Compile Include="Views\LastTransactions.Designer.cs">
       <DependentUpon>LastTransactions.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Login.cs">
+    <Compile Include="Views\LoginPIN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Views\LoginPIN.Designer.cs">
+      <DependentUpon>LoginPIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginDNI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\LoginDNI.Designer.cs">
+      <DependentUpon>LoginDNI.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\SearchClient.cs">
       <SubType>Form</SubType>
@@ -122,8 +128,11 @@
     <EmbeddedResource Include="Views\LastTransactions.resx">
       <DependentUpon>LastTransactions.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="Views\LoginPIN.resx">
+      <DependentUpon>LoginPIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LoginDNI.resx">
+      <DependentUpon>LoginDNI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\SearchClient.resx">
       <DependentUpon>SearchClient.cs</DependentUpon>

@@ -30,7 +30,6 @@ C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debu
 C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Properties.Resources.resources
 C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Views.GetBalance.resources
 C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Views.LastTransactions.resources
-C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Views.Login.resources
 C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Vista.SearchClient.resources
 C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Views.SearchProductOfClient.resources
 C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.csproj.GenerateResource.cache
@@ -38,3 +37,5 @@ C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debu
 C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.csproj.CopyComplete
 C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.exe
 C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.pdb
+C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Views.LoginDNI.resources
+C:\Users\nacho\Desktop\proyecto taller\repo\TPFinalTallerDeProgramacion\obj\Debug\TPFinalTallerDeProgramacion.Views.LoginPIN.resources
