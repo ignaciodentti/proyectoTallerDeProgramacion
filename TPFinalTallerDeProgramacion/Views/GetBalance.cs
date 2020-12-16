@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TPFinalTallerDeProgramacion.Controllers;
 using TPFinalTallerDeProgramacion.DAL.Repositories;
+using TPFinalTallerDeProgramacion.Models;
 
 namespace TPFinalTallerDeProgramacion.Views
 {

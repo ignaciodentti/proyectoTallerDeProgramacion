@@ -7,6 +7,8 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using TPFinalTallerDeProgramacion.DAL.Interfaces;
+using TPFinalTallerDeProgramacion.Modelo;
+using TPFinalTallerDeProgramacion.Models;
 
 namespace TPFinalTallerDeProgramacion.Controllers
 {
@@ -112,9 +114,11 @@ namespace TPFinalTallerDeProgramacion.Controllers
             System.Console.ReadLine();
         }
 
-        public void getBalance(int pDNI)
+        public BalanceResponse getBalance(int pDNI)
         {
-            var mUrl = "https://my-json-server.typicode.com/utn-frcu-isi-tdp/tas-db/account-balance?id="+pDNI;
+            BalanceResponse mBalance = new BalanceResponse();
+
+            var mUrl = "https://my-json-server.typicode.com/utn-frcu-isi-tdp/tas-db/account-balance?id=" + pDNI;
 
             HttpWebRequest mRequest = (HttpWebRequest)WebRequest.Create(mUrl);
 
@@ -132,6 +136,9 @@ namespace TPFinalTallerDeProgramacion.Controllers
                     {
                         System.Console.WriteLine("Item completo -> {0}", mResponseJSON[0].response);
                         System.Console.WriteLine("Balance -> {0}", mResponseJSON[0].response.balance);
+
+                        mBalance.Balance = mResponseJSON[0].response.balance;
+                        mBalance.ID = mResponseJSON[0].response;
                     }
                     else
                     {
@@ -155,7 +162,7 @@ namespace TPFinalTallerDeProgramacion.Controllers
                 System.Console.WriteLine("Error: {0}", ex.Message);
             }
 
-            System.Console.ReadLine();
+            return mBalance;
         }
 
         public void getLastTransactions(int pDNI)

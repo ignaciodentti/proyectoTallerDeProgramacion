@@ -48,6 +48,7 @@
     <Compile Include="DAL\Repositories\ClientRepository.cs" />
     <Compile Include="DAL\Repositories\GeneralRepository.cs" />
     <Compile Include="DAL\Repositories\UnitOfWork.cs" />
+    <Compile Include="Models\BalanceResponse.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\Transaction.cs" />
